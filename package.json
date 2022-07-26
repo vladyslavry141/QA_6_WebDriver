@@ -1,0 +1,51 @@
+{
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.2.1",
+    "selenium-webdriver": "*"
+  },
+  "name": "qa_6_webdriver",
+  "description": "To create a script using one of following programming languages (Python, Java, C#, node.js, Ruby). This script should validate some behaviour of web application using a Webdriver library. Script should be published on public Git hosting (Github, Gitlab or similar)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.11",
+    "concat-map": "^0.0.1",
+    "core-util-is": "^1.0.2",
+    "fs.realpath": "^1.0.0",
+    "glob": "^7.1.7",
+    "immediate": "^3.0.6",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.4",
+    "isarray": "^1.0.0",
+    "jszip": "^3.6.0",
+    "lie": "^3.3.0",
+    "minimatch": "^3.0.4",
+    "once": "^1.4.0",
+    "pako": "^1.0.11",
+    "path-is-absolute": "^1.0.1",
+    "process-nextick-args": "^2.0.1",
+    "readable-stream": "^2.3.7",
+    "rimraf": "^2.7.1",
+    "safe-buffer": "^5.1.2",
+    "set-immediate-shim": "^1.0.1",
+    "string_decoder": "^1.1.1",
+    "tmp": "^0.2.1",
+    "util-deprecate": "^1.0.2",
+    "wrappy": "^1.0.2",
+    "ws": "^7.4.5"
+  },
+  "scripts": {
+    "test": "npx cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladyslavry141/QA_6_WebDriver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladyslavry141/QA_6_WebDriver/issues"
+  },
+  "homepage": "https://github.com/vladyslavry141/QA_6_WebDriver#readme"
+}
